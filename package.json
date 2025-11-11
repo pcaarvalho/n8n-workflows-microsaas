@@ -1,0 +1,11 @@
+{
+  "name": "n8n-workflows-curated",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "cleanup:dry": "node tools/cleanup.mjs --dry-run",
+    "cleanup:apply": "node tools/cleanup.mjs --apply",
+    "catalog": "node tools/build-catalog.mjs"
+  }
+}
