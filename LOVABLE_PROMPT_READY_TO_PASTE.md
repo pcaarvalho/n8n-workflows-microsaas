@@ -31,33 +31,33 @@ GitHub Repository: https://github.com/pcaarvalho/n8n-workflows-microsaas
 
 💰 PLANOS DE PREÇO (4 Tiers)
 
-FREE (R$ 0)
-├─ 5 workflows disponíveis
-├─ 500 execuções/mês
+FREE ($0)
+├─ 5 workflows available
+├─ 500 executions/month
 ├─ Email support
-└─ Objetivo: Aquisição de usuários
+└─ Goal: User acquisition
 
-STARTER (R$ 99/mês)
+STARTER ($19/month)
 ├─ 50 workflows
-├─ 5.000 execuções/mês
+├─ 5.000 executions/month
 ├─ Chat support
 ├─ Team members (1)
-└─ Objetivo: Primeira conversão
+└─ Goal: First conversion
 
-PRO (R$ 299/mês)
+PRO ($59/month) ⭐ MOST POPULAR
 ├─ 500 workflows
-├─ 50.000 execuções/mês
+├─ 50.000 executions/month
 ├─ Phone support
 ├─ Team members (5)
 ├─ API access
-└─ Objetivo: Profissionais e PMEs
+└─ Goal: Professionals & SMBs
 
 ENTERPRISE (Custom)
-├─ Tudo ilimitado
+├─ Unlimited everything
 ├─ White-label
 ├─ SLA 99.9%
 ├─ Dedicated account manager
-└─ Objetivo: Grandes empresas
+└─ Goal: Enterprise companies
 
 ═══════════════════════════════════════════════════════════
 
@@ -76,100 +76,100 @@ UI Library: Use shadcn/ui components
 
 ═══════════════════════════════════════════════════════════
 
-📄 PÁGINAS PÚBLICAS (sem autenticação)
+📄 PUBLIC PAGES (without authentication)
 
 1. LANDING PAGE
-   └─ Hero section com CTA "Começar Grátis"
+   └─ Hero section with CTA "Start Free"
    └─ Value props (3 cards):
-      ├─ "2.060 workflows testados"
-      ├─ "De R$ 0 a R$ 299/mês"
-      └─ "Setup em 5 minutos"
-   └─ Pricing table (4 planos lado-a-lado)
-   └─ FAQ (top 10 perguntas)
+      ├─ "2.060+ ready-to-use workflows"
+      ├─ "From $0 to $59/month"
+      └─ "Setup in 5 minutes"
+   └─ Pricing table (4 plans side-by-side)
+   └─ FAQ (top 10 questions)
    └─ CTA footer "Sign up"
 
 2. MARKETPLACE
-   └─ Grid de workflows (20 por página)
-   └─ Search bar com autocomplete
-   └─ Filtros:
-      ├─ Categoria: Marketing, Vendas, Suporte, Outros
-      ├─ Dificuldade: Easy, Medium, Hard
-      └─ Plano mínimo: Free, Starter, Pro
+   └─ Grid of workflows (20 per page)
+   └─ Search bar with autocomplete
+   └─ Filters:
+      ├─ Category: Marketing, Sales, Support, Other
+      ├─ Difficulty: Easy, Medium, Hard
+      └─ Min plan: Free, Starter, Pro
    └─ WorkflowCard:
-      ├─ Imagem/preview
-      ├─ Nome + descrição (2 linhas)
+      ├─ Image/preview
+      ├─ Name + description (2 lines)
       ├─ 📥 Installs count
       ├─ ⭐ Rating (1-5 stars)
       ├─ ⏱️ Setup time
-      └─ Button: "Preview" ou "Sign up to install"
+      └─ Button: "Preview" or "Sign up to install"
 
 3. WORKFLOW DETAIL
-   └─ Modal ou página dedicada
-   └─ Preview grande
-   └─ Descrição completa
+   └─ Modal or dedicated page
+   └─ Large preview
+   └─ Full description
    └─ Setup time + difficulty badge
    └─ Required integrations (badges)
    └─ Installs + rating
-   └─ Recent reviews (últimas 5)
-   └─ Button: "Install" (ou "Sign up" se não autenticado)
+   └─ Recent reviews (last 5)
+   └─ Button: "Install" (or "Sign up" if not authenticated)
 
 4. PRICING PAGE
-   └─ Comparison table completa
-   └─ Feature breakdown por plano
-   └─ CTA em cada plano
-   └─ FAQ pricing
-   └─ "Most Popular" badge no PRO
+   └─ Complete comparison table
+   └─ Feature breakdown per plan
+   └─ CTA on each plan
+   └─ Pricing FAQ
+   └─ "Most Popular" badge on PRO
 
 5. HELP CENTER
-   └─ FAQ básico
-   └─ Links para docs
+   └─ Basic FAQ
+   └─ Documentation links
    └─ Email support button
 
 ═══════════════════════════════════════════════════════════
 
-🔐 PÁGINAS AUTENTICADAS
+🔐 AUTHENTICATED PAGES
 
 1. DASHBOARD (Home)
-   └─ Welcome: "Bem-vindo, [Name]!"
-   └─ 3 KPIs em cards:
+   └─ Welcome: "Welcome, [Name]!"
+   └─ 3 KPIs in cards:
       ├─ "Total Installed: X workflows"
       ├─ "This Month: Y executions"
       └─ "Next Billing: [date]"
    └─ Usage gauge (visual feedback):
-      ├─ Barra verde se <80% do limite
-      ├─ Barra amarela se 80-95%
-      └─ Barra vermelha se >95%
+      ├─ Green bar if <80% of limit
+      ├─ Yellow bar if 80-95%
+      └─ Red bar if >95%
    └─ Quick action: "Explore more workflows"
 
-2. MARKETPLACE (autenticado)
-   └─ Mesmo layout que público
-   └─ Workflows já instalados com badge "Installed"
-   └─ Button "Install" em vez de "Sign up"
-   └─ Carregamento rápido com cache (React Query)
+2. MARKETPLACE (authenticated)
+   └─ Same layout as public
+   └─ Already installed workflows with "Installed" badge
+   └─ "Install" button instead of "Sign up"
+   └─ Fast loading with cache (React Query)
 
 3. MY WORKFLOWS
-   └─ Lista de workflows instalados
-   └─ Colunas: Nome | Status | Last Execution | Actions
+   └─ List of installed workflows
+   └─ Columns: Name | Status | Last Execution | Actions
    └─ Status: 🟢 Active | 🟡 Paused | 🔴 Error
-   └─ Botões por row:
+   └─ Buttons per row:
       ├─ View details
       ├─ Pause/Resume
-      └─ Delete (com confirmação)
-   └─ Empty state: "Nenhum workflow instalado. Explore o marketplace!"
+      └─ Delete (with confirmation)
+   └─ Empty state: "No workflows installed yet. Explore the marketplace!"
 
 4. BILLING
    └─ Current plan:
-      ├─ Nome do plano
-      ├─ Preço/mês
-      ├─ Próxima renovação
+      ├─ Plan name
+      ├─ Price/month
+      ├─ Next renewal date
    └─ Usage meter:
       ├─ Executions: X / Y (visual bar)
       ├─ Workflows: X / Y (visual bar)
    └─ Buttons:
       ├─ "Upgrade to PRO" (green)
       ├─ "View invoice history"
-      └─ "Cancel subscription" (red, com warning modal)
-   └─ Invoice history (últimas 5, com links de PDF)
+      └─ "Cancel subscription" (red, with warning modal)
+   └─ Invoice history (last 5, with PDF links)
 
 5. SETTINGS
    └─ Profile tab:
@@ -182,16 +182,17 @@ UI Library: Use shadcn/ui components
       ├─ Copy button
       ├─ Revoke button
       └─ Usage statistics
-   └─ Team tab (se plano suporta):
+   └─ Team tab (if plan supports):
       ├─ Add member (email input)
-      ├─ Member list com role
+      ├─ Member list with role
       └─ Remove button
    └─ Preferences tab:
-      ├─ Language (EN/PT-BR)
+      ├─ Language (English, Portuguese, Spanish)
       ├─ Notifications toggle
+      └─ Timezone
    └─ Danger Zone:
       ├─ Delete account button
-      └─ Confirmação dupla
+      └─ Double confirmation
 
 ═══════════════════════════════════════════════════════════
 
@@ -218,26 +219,26 @@ ENV VARIABLES:
 
 ═══════════════════════════════════════════════════════════
 
-⚡ FLUXO CRÍTICO: INSTALAR WORKFLOW
+⚡ CRITICAL FLOW: INSTALL WORKFLOW
 
-1. User vê workflow → Clica "Install"
-2. Se NÃO autenticado:
+1. User sees workflow → Clicks "Install"
+2. If NOT authenticated:
    └─ Modal: "Sign up to install this workflow"
    └─ Redirect → /signup
-3. Se autenticado:
-   └─ Check: Plano do user >= workflow min_plan?
-      ├─ SIM → Continue
-      └─ NÃO → Modal: "Upgrade your plan"
-   └─ Check: Quota disponível (executions)?
-      ├─ SIM → Continue
-      └─ NÃO → Modal: "You've reached your monthly limit"
+3. If authenticated:
+   └─ Check: User plan >= workflow min_plan?
+      ├─ YES → Continue
+      └─ NO → Modal: "Upgrade your plan"
+   └─ Check: Quota available (executions)?
+      ├─ YES → Continue
+      └─ NO → Modal: "You've reached your monthly limit"
    └─ Show required integrations
    └─ Modal "Review installation"
    └─ Button "Complete installation"
 4. Success:
    └─ Toast: "✅ Workflow installed successfully!"
-   └─ Workflow aparece em "My Workflows"
-   └─ Dashboard atualiza em real-time
+   └─ Workflow appears in "My Workflows"
+   └─ Dashboard updates in real-time
 
 ═══════════════════════════════════════════════════════════
 
@@ -258,7 +259,7 @@ Breakpoints:
 
 ═══════════════════════════════════════════════════════════
 
-🎯 MVP SCOPE (7 DIAS)
+🎯 MVP SCOPE (7 DAYS)
 
 Day 1-2: Setup + Auth
 ├─ Vite + React + TypeScript
@@ -271,13 +272,13 @@ Day 3-4: Marketplace
 ├─ Search + filters
 ├─ WorkflowCard component
 ├─ Workflow detail modal
-├─ Instalar workflow (sem Stripe ainda)
+├─ Install workflow (without Stripe yet)
 
 Day 5: Dashboard + Billing
-├─ Dashboard com KPIs
+├─ Dashboard with KPIs
 ├─ My Workflows list
 ├─ Stripe checkout integration
-├─ Webhook para update DB
+├─ Webhook for DB update
 
 Day 6: Settings + Polish
 ├─ Settings page
@@ -288,10 +289,10 @@ Day 6: Settings + Polish
 ├─ Mobile responsiveness
 
 Day 7: Testing + Deploy
-├─ QA completo
+├─ Complete QA
 ├─ Bug fixes
-├─ Deploy para Vercel
-├─ Verificar Stripe webhook
+├─ Deploy to Vercel
+├─ Verify Stripe webhook
 ├─ Final polish
 
 ═══════════════════════════════════════════════════════════
@@ -299,59 +300,59 @@ Day 7: Testing + Deploy
 ✅ ACCEPTANCE CRITERIA
 
 Landing Page:
-└─ [ ] Hero com CTA funcional
-└─ [ ] Pricing table mostra 4 planos
-└─ [ ] Responsive em mobile
+└─ [ ] Hero with functional CTA
+└─ [ ] Pricing table shows 4 plans
+└─ [ ] Responsive on mobile
 
 Marketplace:
-└─ [ ] Carrega 2.060 workflows
-└─ [ ] Search funciona
-└─ [ ] Filtros funcionam
-└─ [ ] Cards exibem corretamente
-└─ [ ] Pagination/infinite scroll
+└─ [ ] Loads 2.060 workflows
+└─ [ ] Search works
+└─ [ ] Filters work
+└─ [ ] Cards display correctly
+└─ [ ] Pagination/infinite scroll works
 
 Auth:
-└─ [ ] Signup funciona
-└─ [ ] Email verification
-└─ [ ] Login funciona
-└─ [ ] Logout funciona
-└─ [ ] Protected routes
+└─ [ ] Signup works
+└─ [ ] Email verification works
+└─ [ ] Login works
+└─ [ ] Logout works
+└─ [ ] Protected routes work
 
 Dashboard:
-└─ [ ] KPIs mostram valores corretos
-└─ [ ] Usage gauge visual
-└─ [ ] My Workflows lista installs
+└─ [ ] KPIs show correct values
+└─ [ ] Usage gauge is visual
+└─ [ ] My Workflows lists installs
 
 Billing:
-└─ [ ] Current plan exibido
+└─ [ ] Current plan displayed
 └─ [ ] Upgrade button → Stripe
-└─ [ ] Webhook atualiza DB
-└─ [ ] Invoice history mostra pagamentos
+└─ [ ] Webhook updates DB
+└─ [ ] Invoice history shows payments
 
 Settings:
-└─ [ ] Profile pode ser editado
-└─ [ ] API keys podem ser geradas
-└─ [ ] Settings salvam corretamente
+└─ [ ] Profile can be edited
+└─ [ ] API keys can be generated
+└─ [ ] Settings save correctly
 
 General:
-└─ [ ] Mobile responsivo (xs até xl)
+└─ [ ] Mobile responsive (xs to xl)
 └─ [ ] No console errors
 └─ [ ] Load time < 3s
 └─ [ ] All images load correctly
 
 ═══════════════════════════════════════════════════════════
 
-🚀 RESULTADO ESPERADO (Dia 7)
+🚀 EXPECTED RESULT (Day 7)
 
-✅ Landing page pronta e otimizada
-✅ Marketplace com 2.060 workflows funcionando
-✅ Autenticação completa (signup, login, logout)
-✅ Dashboard com stats e usage gauge
-✅ Billing integrado com Stripe (test mode)
-✅ Settings funcional
-✅ Mobile responsivo (xs até xl)
-✅ Deploy em Vercel automático
-✅ Pronto para BETA TESTING
+✅ Landing page ready and optimized
+✅ Marketplace with 2.060 workflows working
+✅ Complete authentication (signup, login, logout)
+✅ Dashboard with stats and usage gauge
+✅ Billing integrated with Stripe (test mode)
+✅ Functional settings
+✅ Mobile responsive (xs to xl)
+✅ Automatic deployment on Vercel
+✅ Ready for BETA TESTING
 
 ═══════════════════════════════════════════════════════════
 

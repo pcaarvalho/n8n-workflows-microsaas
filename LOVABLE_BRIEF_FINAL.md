@@ -9,47 +9,47 @@
 
 ## 🏢 NOMES PROPOSTOS (Escolha 1)
 
-### OPÇÃO 1: **n8n Hub** ⭐ RECOMENDADO
+### OPTION 1: **n8n Hub** ⭐ RECOMMENDED
 ```
-✅ Curto (2 palavras)
-✅ SEO: "n8n hub" aparece em buscas de n8n
-✅ Claro: "hub" = marketplace/central
-✅ Memorável: fácil de falar e digitar
-✅ Domínio: n8nhub.com (simples)
+✅ Short (2 words)
+✅ SEO: "n8n hub" appears in n8n searches
+✅ Clear: "hub" = marketplace/central
+✅ Memorable: easy to speak and type
+✅ Domain: n8nhub.com (simple)
 
-Tagline: "Hub de Automações n8n - 2.000+ workflows prontos"
-```
-
-### OPÇÃO 2: **Workflow Hub by n8n** (Mais descritivo)
-```
-✅ Explícito: pessoas entendem na hora
-✅ SEO: múltiplas keywords (workflow, hub, n8n)
-❌ Mais longo (3 palavras)
-❌ "by n8n" sugere ser oficial (pode confundir)
-
-Tagline: "A maior biblioteca de workflows prontos para n8n"
+Tagline: "n8n Hub - 2.060+ Ready-to-Use Workflows"
 ```
 
-### OPÇÃO 3: **n8n Store** (Como App Store)
+### OPTION 2: **Workflow Hub by n8n** (More descriptive)
+```
+✅ Explicit: people understand immediately
+✅ SEO: multiple keywords (workflow, hub, n8n)
+❌ Longer (3 words)
+❌ "by n8n" suggests official (may confuse)
+
+Tagline: "The largest library of ready-to-use n8n workflows"
+```
+
+### OPTION 3: **n8n Store** (Like App Store)
 ```
 ✅ Familiar: App Store, Chrome Store pattern
-✅ Curto e impactante
-✅ SEO: "n8n store" é buscado
-✅ Posicionamento: "você compra workflows como apps"
+✅ Short and impactful
+✅ SEO: "n8n store" is searched
+✅ Positioning: "buy workflows like apps"
 
-Tagline: "App Store para automações n8n"
+Tagline: "App Store for n8n Automations"
 ```
 
 ---
 
-## 🎯 RECOMENDAÇÃO: **n8n Hub**
+## 🎯 RECOMMENDATION: **n8n Hub**
 
-**Por quê?**
-- Melhor SEO
-- Mais memorável
-- Menos confusão com n8n oficial
-- Fácil de marcar (.com/.io disponível)
-- Posicionamento claro: "central/marketplace"
+**Why?**
+- Better SEO
+- More memorable
+- Less confusion with official n8n
+- Easy to brand (.com/.io available)
+- Clear positioning: "central/marketplace"
 
 ---
 
@@ -75,27 +75,27 @@ Repositório GitHub: https://github.com/pcaarvalho/n8n-workflows-microsaas
 
 === MODELO DE NEGÓCIO ===
 
-4 Planos:
-1. FREE: R$ 0
+4 Plans:
+1. FREE: $0
    - 5 workflows
-   - 500 execuções/mês
+   - 500 executions/month
    - Email support
 
-2. STARTER: R$ 99/mês
+2. STARTER: $19/month
    - 50 workflows
-   - 5.000 execuções/mês
+   - 5.000 executions/month
    - Chat support
    - Team member (1)
 
-3. PRO: R$ 299/mês
+3. PRO: $59/month
    - 500 workflows
-   - 50.000 execuções/mês
+   - 50.000 executions/month
    - Phone support
    - Team members (5)
    - API access
 
 4. ENTERPRISE: Custom
-   - Tudo ilimitado
+   - Everything unlimited
    - White-label
    - SLA 99.9%
    - Dedicated account manager
